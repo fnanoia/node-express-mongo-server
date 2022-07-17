@@ -1,0 +1,30 @@
+###
+POST  http://localhost:4040/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "carlos",
+    "age": 19,
+    "email": "carlos@vwebr.com",
+    "country": "colombia",
+    "telephone": 1366598
+}
+
+###
+GET http://localhost:4040/api/users HTTP/1.1
+
+###
+PUT  http://localhost:4040/api/users/62d49818601a270e29fb56bb HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "maria elena",
+    "age": 65,
+    "email": "mariaelena@v2.com",
+    "country": "argentina",
+    "telephone": 1698865
+}
+
+###
+DELETE  http://localhost:4040/api/users/62d46e85de6480c4fe87314a HTTP/1.1
+
